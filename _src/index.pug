@@ -1,0 +1,15 @@
+extends ./_include/_layout
+
+block var
+  - pageId = "index"
+
+block content
+  body
+    include ./_include/common/_gabody
+    .wrap
+      section.test
+        h1 
+          span.u-db [gulp + webpack + jQuery + pug + sass]
+          span.u-db starter
+        p.u-pt50-30.u-dib-di
+          a(href="https://jws.work/", target="_blank") by JWS
